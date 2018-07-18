@@ -4,7 +4,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
@@ -12,7 +11,6 @@ import static io.restassured.module.jsv.JsonSchemaValidator.*;
 
 public class RestTest {
 
-    private static String HOST = "https://jsonplaceholder.typicode.com";
 
     @Before
     public void disableWarnings() {
@@ -34,11 +32,19 @@ public class RestTest {
                 .and().body("author", equalToIgnoringCase("God"));
     }
 
-
     @Test
-    public void testSome() throws Throwable {
-        get(HOST + "/posts").then().statusCode(200)
-        .and().body("", hasSize(100));
+    public void assertSchemaValidation() throws Throwable {
+
+        //verify all books schema validation
+        get("/book").then().assertThat().body(matchesJsonSchemaInClasspath("books-schema.json"));
+
+
+        //verify book schema validation
+        get("/book/4").then().assertThat().body(matchesJsonSchemaInClasspath("book-schema.json"));
     }
+
+
+
+
 
 }
