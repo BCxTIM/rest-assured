@@ -8,6 +8,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 
 import model.Book;
+import org.json.JSONObject;
 import org.junit.Before;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -30,7 +31,7 @@ public class RestTest {
 
 
     @BeforeClass
-    public void beforeExecution() {
+    public void beforeExecution() throws InterruptedException {
         GlobalHooks.truncateTable();
         GlobalHooks.disableWarning();
     }
@@ -69,7 +70,7 @@ public class RestTest {
 
     @Test (priority = 3)
     public void getBook() throws Throwable {
-        get("/book/4").then().statusCode(200)
+        get("/book/4").then().statusCode(210)
                 .and().body("id", is(4))
                 .and().body("title", equalToIgnoringCase("tim"))
                 .and().body("author", equalToIgnoringCase("God"));

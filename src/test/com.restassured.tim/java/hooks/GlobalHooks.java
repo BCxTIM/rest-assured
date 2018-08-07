@@ -7,7 +7,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-
 public class GlobalHooks {
 
     public static void disableWarning() {
@@ -25,23 +24,25 @@ public class GlobalHooks {
     }
 
 
-    public static void truncateTable() {
+    public static void truncateTable() throws InterruptedException {
         Connection connection = null;
         try {
 
             // Load the MySQL JDBC driver
 
-            String driverName = "com.mysql.jdbc.Driver";
+            String driverName = "com.mysql.cj.jdbc.Driver";
 
             Class.forName(driverName);
 
             // Create a connection to the database
 
-            String serverName = "localhost";
+//            String serverName = "localhost";
+
+            String containerName = "localhost";
 
             String schema = "bcxtim";
 
-            String url = "jdbc:mysql://" + serverName + "/" + schema;
+            String url = "jdbc:mysql://" + containerName + "/" + schema;
 
             String username = "root";
 

@@ -1,0 +1,22 @@
+version: '3.2'
+
+
+services:
+  tests:
+    image: maven:3.5.4-jdk-10-slim
+    stop_signal: SIGKILL
+    stdin_open: true
+    build: ./
+    restart: always
+    tty: true
+    working_dir: /app1
+    volumes:
+      - ./:/app1
+#      # Maven cache (optional)
+      - ~/.m2:/root/.m2
+    command: mvn test
+
+networks:
+  default:
+    external:
+      name: rest_network
