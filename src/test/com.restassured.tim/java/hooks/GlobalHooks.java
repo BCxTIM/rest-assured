@@ -1,5 +1,6 @@
 package hooks;
 
+
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
@@ -68,6 +69,7 @@ public class GlobalHooks {
 
 
             statement.executeUpdate("TRUNCATE book");
+            statement.executeUpdate("TRUNCATE notebook");
 
 
             System.out.println("Successfully truncated bcxtim");

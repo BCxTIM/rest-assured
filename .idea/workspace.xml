@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d0a435a-4390-4808-9b74-213e5dd9bce8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/GlobalHooks.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,56 +17,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="books-schema.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/books-schema.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java">
+      <file leaf-file-name="BookRestTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="140" column="78" selection-start-line="140" selection-start-column="78" selection-end-line="140" selection-end-column="78" />
-              <folding>
-                <element signature="method#beforeExecution#0;class#RestTest#0" />
-                <element signature="e#1071#1678#0" />
-                <element signature="e#1022#1072#0" />
-                <element signature="method#getBook#0;class#RestTest#0" />
-                <element signature="method#updateLastInsertedBook#0;class#RestTest#0" />
-                <element signature="e#2221#2271#0" />
-                <element signature="method#deserialazeBook#0;class#RestTest#0" />
-                <element signature="method#assertSchemaValidation#0;class#RestTest#0" />
-                <element signature="method#testUnchekdSchemaValidation#0;class#RestTest#0" />
-                <element signature="method#deleteLastBook#0;class#RestTest#0" />
-                <element signature="method#sendObjectAsJSON#0;class#RestTest#0" />
-                <element signature="method#sendHashMapBody#0;class#RestTest#0" />
-                <element signature="method#testJsonPath#0;class#RestTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalHooks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="360">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotebookRestTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/NotebookRestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notebook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com.restassured.tim/java/model/Notebook.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalHooks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="failed-schema.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/failed-schema.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notebook-schema.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/notebook-schema.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notebooks-schema.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/notebooks-schema.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="book-schema.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/book-schema.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -89,10 +110,16 @@
       <find>with</find>
       <find>@Test</find>
       <find>@org.testng.annotations.Test</find>
+      <find>book</find>
+      <find>schem</find>
+      <find>delete</find>
+      <find>210</find>
     </findStrings>
     <replaceStrings>
       <replace>@org.testng.annotations.Test</replace>
       <replace>@Test</replace>
+      <replace>noteboo</replace>
+      <replace>notebook</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,9 +137,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/book-schema.json" />
         <option value="$PROJECT_DIR$/src/test/resources/books-schema.json" />
         <option value="$PROJECT_DIR$/src/test/resources/failed-schema.json" />
-        <option value="$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com.restassured.tim/java/model/Notebook.java" />
+        <option value="$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com.restassured.tim/java/NotebookRestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java" />
       </list>
     </option>
   </component>
@@ -139,10 +169,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,6 +181,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,15 +264,12 @@
             </path>
             <path>
               <item name="restassured" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restassured" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,17 +284,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\restassured\src\test\com.restassured.tim" />
-      <recent name="D:\Projects\restassured\src\test" />
-      <recent name="D:\Projects\restassured\src\main\com.restassured.tim" />
-      <recent name="D:\Projects\restassured\src\main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\restassured\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\restassured\src\test\com.restassured.tim" />
+      <recent name="D:\Projects\restassured\src\test" />
+      <recent name="D:\Projects\restassured\src\main\com.restassured.tim" />
+      <recent name="D:\Projects\restassured\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestTest">
+  <component name="RunManager" selected="TestNG.NotebookRestTest">
     <configuration name="GlobalHooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hooks.GlobalHooks" />
       <module name="restassured" />
@@ -295,48 +328,14 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookRestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestTest" />
+      <option name="MAIN_CLASS_NAME" value="BookRestTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RestTest.sendHashMapBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestTest" />
-      <option name="METHOD_NAME" value="sendHashMapBody" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RestTest.testJsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestTest" />
-      <option name="METHOD_NAME" value="testJsonPath" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -362,13 +361,63 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookRestTest and 1 more" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="BookRestTest" />
+        <pattern testClass="NotebookRestTest" />
+      </patterns>
+    </configuration>
+    <configuration name="BookRestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restassured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestTest" />
+      <option name="MAIN_CLASS_NAME" value="BookRestTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="NotebookRestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restassured" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NotebookRestTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -408,19 +457,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RestTest.sendHashMapBody" />
-      <item itemvalue="JUnit.RestTest.testJsonPath" />
       <item itemvalue="Application.GlobalHooks" />
-      <item itemvalue="JUnit.RestTest" />
-      <item itemvalue="TestNG.RestTest" />
+      <item itemvalue="JUnit.BookRestTest" />
+      <item itemvalue="TestNG.BookRestTest" />
+      <item itemvalue="TestNG.BookRestTest and 1 more" />
+      <item itemvalue="TestNG.NotebookRestTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RestTest" />
-        <item itemvalue="JUnit.RestTest" />
+        <item itemvalue="TestNG.NotebookRestTest" />
+        <item itemvalue="TestNG.BookRestTest" />
+        <item itemvalue="TestNG.BookRestTest and 1 more" />
+        <item itemvalue="JUnit.BookRestTest" />
         <item itemvalue="Application.GlobalHooks" />
-        <item itemvalue="JUnit.RestTest.testJsonPath" />
-        <item itemvalue="JUnit.RestTest.sendHashMapBody" />
       </list>
     </recent_temporary>
   </component>
@@ -438,47 +487,48 @@
       <workItem from="1531925422311" duration="1005000" />
       <workItem from="1531986016083" duration="17586000" />
       <workItem from="1532070717956" duration="4028000" />
+      <workItem from="1533643748365" duration="140000" />
+      <workItem from="1533723871278" duration="1053000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestTest - 2018.07.20 at 10h 56m 55s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="BookRestTest_and_1_more - 2018.08.08 at 13h 33m 28s.xml">
+      <configuration name="BookRestTest and 1 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 10m 12s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="BookRestTest_and_1_more - 2018.08.08 at 13h 34m 25s.xml">
+      <configuration name="BookRestTest and 1 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 11m 40s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="BookRestTest - 2018.08.08 at 13h 35m 09s.xml">
+      <configuration name="BookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 13m 44s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 35m 25s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 15m 19s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 36m 25s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 15m 57s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 36m 55s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 16m 30s.xml">
-      <configuration name="RestTest" configurationId="JUnit" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 37m 14s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 19m 09s.xml">
-      <configuration name="RestTest" configurationId="TestNG" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 37m 32s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 21m 37s.xml">
-      <configuration name="RestTest" configurationId="TestNG" />
+    <history-entry file="NotebookRestTest - 2018.08.08 at 13h 39m 26s.xml">
+      <configuration name="NotebookRestTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTest - 2018.07.20 at 11h 22m 10s.xml">
-      <configuration name="RestTest" configurationId="TestNG" />
+    <history-entry file="BookRestTest_and_1_more - 2018.08.08 at 13h 40m 35s.xml">
+      <configuration name="BookRestTest and 1 more" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30913000" />
+    <option name="totallyTimeSpent" value="32122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -489,19 +539,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43586206" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943678" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -571,6 +622,126 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.restassured.tim/java/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/matcher/RestAssuredMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="61" column="60" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/resources/book-schema.json" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-schema-validator/3.1.0/json-schema-validator-3.1.0.jar!/io/restassured/module/jsv/JsonSchemaValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.restassured.tim/java/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="263" column="28" selection-start-line="263" selection-start-column="28" selection-end-line="263" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/internal/RequestSpecificationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="261" column="64" selection-start-line="261" selection-start-column="64" selection-end-line="261" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/RestAssured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/books-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/failed-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/book-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -603,31 +774,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
           <caret line="130" column="36" lean-forward="true" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
-          <folding>
-            <element signature="method#beforeExecution#0;class#RestTest#0" />
-            <element signature="e#1071#1678#0" />
-            <element signature="e#1022#1072#0" />
-            <element signature="method#getBook#0;class#RestTest#0" />
-            <element signature="method#updateLastInsertedBook#0;class#RestTest#0" />
-            <element signature="e#2221#2271#0" />
-            <element signature="method#deserialazeBook#0;class#RestTest#0" />
-            <element signature="method#assertSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#testUnchekdSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#deleteLastBook#0;class#RestTest#0" />
-            <element signature="method#sendObjectAsJSON#0;class#RestTest#0" />
-            <element signature="method#sendHashMapBody#0;class#RestTest#0" />
-            <element signature="method#testJsonPath#0;class#RestTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,25 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="method#beforeExecution#0;class#RestTest#0" />
-            <element signature="e#1071#1678#0" />
-            <element signature="e#1022#1072#0" />
-            <element signature="method#getBook#0;class#RestTest#0" />
-            <element signature="method#updateLastInsertedBook#0;class#RestTest#0" />
-            <element signature="e#2221#2271#0" />
-            <element signature="method#deserialazeBook#0;class#RestTest#0" />
-            <element signature="method#assertSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#testUnchekdSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#deleteLastBook#0;class#RestTest#0" />
-            <element signature="method#sendObjectAsJSON#0;class#RestTest#0" />
-            <element signature="method#sendHashMapBody#0;class#RestTest#0" />
-            <element signature="method#testJsonPath#0;class#RestTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,25 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="method#beforeExecution#0;class#RestTest#0" />
-            <element signature="e#1071#1678#0" />
-            <element signature="e#1022#1072#0" />
-            <element signature="method#getBook#0;class#RestTest#0" />
-            <element signature="method#updateLastInsertedBook#0;class#RestTest#0" />
-            <element signature="e#2221#2271#0" />
-            <element signature="method#deserialazeBook#0;class#RestTest#0" />
-            <element signature="method#assertSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#testUnchekdSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#deleteLastBook#0;class#RestTest#0" />
-            <element signature="method#sendObjectAsJSON#0;class#RestTest#0" />
-            <element signature="method#sendHashMapBody#0;class#RestTest#0" />
-            <element signature="method#testJsonPath#0;class#RestTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,34 +901,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
-          <folding>
-            <element signature="e#5012#5013#0" expanded="true" />
-            <element signature="e#5042#5043#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/books-schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/failed-schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -822,24 +918,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/RestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/failed-schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="140" column="78" selection-start-line="140" selection-start-column="78" selection-end-line="140" selection-end-column="78" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com.restassured.tim/java/model/Notebook.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/notebook-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/notebooks-schema.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/BookRestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="method#beforeExecution#0;class#RestTest#0" />
-            <element signature="e#1071#1678#0" />
-            <element signature="e#1022#1072#0" />
-            <element signature="method#getBook#0;class#RestTest#0" />
-            <element signature="method#updateLastInsertedBook#0;class#RestTest#0" />
-            <element signature="e#2221#2271#0" />
-            <element signature="method#deserialazeBook#0;class#RestTest#0" />
-            <element signature="method#assertSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#testUnchekdSchemaValidation#0;class#RestTest#0" />
-            <element signature="method#deleteLastBook#0;class#RestTest#0" />
-            <element signature="method#sendObjectAsJSON#0;class#RestTest#0" />
-            <element signature="method#sendHashMapBody#0;class#RestTest#0" />
-            <element signature="method#testJsonPath#0;class#RestTest#0" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/NotebookRestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.restassured.tim/java/hooks/GlobalHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

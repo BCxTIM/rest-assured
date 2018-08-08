@@ -27,7 +27,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.*;
 import static org.junit.Assert.assertThat;
 
 
-public class RestTest {
+public class BookRestTest {
 
 
     @BeforeClass
@@ -70,7 +70,7 @@ public class RestTest {
 
     @Test (priority = 3)
     public void getBook() throws Throwable {
-        get("/book/4").then().statusCode(210)
+        get("/book/4").then().statusCode(200)
                 .and().body("id", is(4))
                 .and().body("title", equalToIgnoringCase("tim"))
                 .and().body("author", equalToIgnoringCase("God"));
